@@ -3,8 +3,14 @@ print("Bienvenido al programa...")
 persona = {"Nombre": Nombre,"Apellido": Apellido,"Edad": Edad, "Peso":Peso,"Altura":Altura,"Direccion": Direccion,"Telefono":Telefono}
 #guardado de datos en diccionario persona 
 
-for _____ in ______:
-______[item]=input(f"Ingrese su {_____} :" )
+for i in persona:
+n[item]=input(f"Ingrese su {nombre} :" )
+a[item]=input(f"Ingrese su {apellido} :" )
+e[item]=input(f"Ingrese su {edad} :" )
+p[item]=input(f"Ingrese su {peso} :" )
+al[item]=input(f"Ingrese su {altura} :" )
+d[item]=input(f"Ingrese su {direccion} :" )
+t[item]=input(f"Ingrese su {telefono} :" )
 
 imc=round (float (persona ["Peso"])/(float (persona ["Altura"]) ** 2), 2)
 #calculo de imc y redondeado 
